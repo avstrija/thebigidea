@@ -1,0 +1,50 @@
+.page {
+    max-width: 1280px;
+    min-width: 320px;
+    margin: auto;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.header__menu-item {
+    text-decoration: none;
+    color: #353434;
+}
+
+.content {
+    max-width: 1280px;
+    width: 80vw;
+    margin: auto;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.events__widget {
+    width: 50%;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 300px;
+}
+
+.footer {
+    padding-bottom: 10px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
